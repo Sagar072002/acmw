@@ -10,6 +10,7 @@ import img8 from "../images/heforshe.png";
 import img9 from "../images/dayofdevops.png";
 import img10 from "../images/illustrator.png";
 import img11 from "../images/portfolio.png";
+import { Link } from 'react-router-dom';
 
 const Events = () => {
     
@@ -26,7 +27,7 @@ const Events = () => {
               <h2 className="heading"> <span>Indian Coder</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -37,7 +38,7 @@ const Events = () => {
               <h2 className="heading"> <span>Crack c 2.o</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -48,7 +49,7 @@ const Events = () => {
               <h2 className="heading"> <span>Debug Your Soul</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -59,7 +60,7 @@ const Events = () => {
               <h2 className="heading"> <span>Tech Roadies</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
         </div>
@@ -73,7 +74,7 @@ const Events = () => {
               <h2 className="heading" id="head"> <span>Innovation for <br /> everyone</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -84,7 +85,7 @@ const Events = () => {
               <h2 className="heading" id="head"> <span>Exploratory Data <br /> Analysis</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -95,7 +96,7 @@ const Events = () => {
               <h2 className="heading"> <span>Power BI</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -106,7 +107,7 @@ const Events = () => {
               <h2 className="heading"> <span>He For He</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
         </div>
@@ -120,7 +121,7 @@ const Events = () => {
               <h2 className="heading"> <span>Day Of Devops</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -131,7 +132,7 @@ const Events = () => {
               <h2 className="heading" id="head"> <span>Adobe Illustrator</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
           <section className="home slide" id="slide-1">
@@ -142,7 +143,7 @@ const Events = () => {
               <h2 className="heading" id="head"> <span>Personal Portfolio</span> </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum possimus, provident corrupti esse, maiores ducimus magni explicabo quasi nam vel perferendis et accusamus repellat? Tempora vitae repellat magni fuga. <br /> <br />
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae mollitia quam rerum inventore harum vel obcaecati voluptatem. Magnam labore explicabo unde magni necessitatibus quos cumque non accusantium reiciendis! Optio, ex!</p>
-              <a href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.instagram.com/geuacm/" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
             </div>
           </section>
         </div>

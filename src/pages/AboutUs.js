@@ -4,6 +4,7 @@ import img2 from "../images/acm.jpg";
 import img3 from "../images/geuacm.png";
 import logo from "../images/logo.png";
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
   return (
@@ -22,7 +23,7 @@ const AboutUs = () => {
                 In 2008, the Institute was accorded the status of Deemed University under Section 3 of the UGC Act, 1956 dated August 14, 2008 and approved by the Ministry of Human Resource Development, Government of India. 
                 . In July 2022, Graphic Era Deemed University was conferred All-India Rank 64 in the Engineering Category, All India Rank 65 in Management Category, and All India Rank 74 in the University Category in the MHRD NIRF Rankings and retained its position consecutively for the third year amongst top 100 universities of India.
               </p>
-              <a href="https://www.geu.ac.in/" target="_blank" className="btn"> learn more <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.geu.ac.in/" target="_blank" className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
             </div>
           </div>
         </section>
@@ -36,7 +37,7 @@ const AboutUs = () => {
             <div className="content" style={{"padding-top":"20px"}} data-aos="fade-left">
               <p>ACM(Association for Computing Machinery), the world's largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM provides the computing field's premier Digital Library and serves its members and the computing profession with leading-edge publications, conferences, and career resources. 
                 <br /> <br /> As the world's largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.</p>
-              <a href="https://www.acm.org/" target="_blank" className="btn"> learn more <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://www.acm.org/" target="_blank" className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
             </div>
           </div>
         </section>
@@ -50,7 +51,7 @@ const AboutUs = () => {
               <p>GEU ACM Student Chapter is a student-run organization that aims to promote the development of students in the field of computer science. We aim to provide a platform for students to learn and grow in their field of interest. We also aim to provide a platform for students to interact with each other and share their knowledge. <br /> <br />
                 GEU ACM Student Chapter is a student-run organization that aims to promote the development of students in the field of computer science. We aim to provide a platform for students to learn and grow in their field of interest. We also aim to provide a platform for students to interact with each other and share their knowledge. <br />
               </p>
-              <a href="https://geu.acm.org/" className="btn"> learn more <span className="fas fa-chevron-right" /> </a>
+              <Link href="https://geu.acm.org/" className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
             </div>
           </div>
         </section>
@@ -65,7 +66,7 @@ const AboutUs = () => {
                 ACM-W Student Chapter Is Created To Educate Women About Careers In Computing And Provide Networking Opportunities.
                 <br /><br />  ACM-W Supports, Celebrates, And Advocates Internationally For The Full Engagement Of Women In All Aspects Of The Computing Field, Providing A Wide Range Of Programs And Services To ACM Members And Working In The Larger Community To Advance The Contributions Of Technical Women.
               </p>
-              <a href="#" className="btn"> learn more <span className="fas fa-chevron-right" /> </a>
+              <Link href="#" className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
             </div>
           </div>
         </section>

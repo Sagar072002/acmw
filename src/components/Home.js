@@ -9,8 +9,8 @@ const Home = () => {
       <h2 className="heading"> GEU <span>ACM-W</span> </h2>
       <p>GEU ACM-W Student Chapter is reserved exclusively for women with an aim to highlight the fact that women are as competent as men in the field of technology. <br /> <br />
         To achieve this, we organize various activities and events to bring out the programmer and genius within each and every individual.</p>
-      <a href="#book" className="btn"> Contact Us <span className="fas fa-chevron-right" /> </a>
-      <Link to="/about" target="_blank" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
+      <Link href="#book" className="btn"> Contact Us <span className="fas fa-chevron-right" /> </Link>
+      <Link to="/about" target="_blank" rel="noreferrer" className="btn" id="but"> Know More <span className="fas fa-chevron-right" /> </Link>
     </div>
   </section>
   )

@@ -13,7 +13,7 @@ const Event = () => {
         </div>
         <p className="para">The Management team is responsible for the overall management of the
           chapter activities, including the organization of the events, seminars and workshops.</p>
-        <Link to="/events" target='_blank' className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
+        <Link to="/events" target='_blank' rel="noreferrer" className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
       </div>
       <div className="box" data-aos="zoom-in-left">
         <div style={{display:"flex"}}>
@@ -23,7 +23,7 @@ const Event = () => {
         <p className="para">The Technical Team is the backbone of our chapter, it is not only
           associated with programming, it works accross projects, learning,
           teaching &amp; sloving problems.</p>
-        <Link to="/events" target='_blank' className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
+        <Link to="/events" target='_blank' rel="noreferrer" className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
       </div>
       <div className="box" data-aos="fade-left">
         <div style={{display:"flex"}}>
@@ -32,7 +32,7 @@ const Event = () => {
         </div>
         <p className="para"> The Editorial Team is responsible for handling and maintaining all
           the documentations and preparing the report covering all the details of the event.</p>
-        <Link to="/events" target='_blank' className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
+        <Link to="/events" target='_blank' rel="noreferrer" className="btn"> learn more <span className="fas fa-chevron-right" /> </Link>
       </div>
     </div>
   </section>

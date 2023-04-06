@@ -6,6 +6,7 @@
 import React, { useState } from "react";
 import logo from "../images/logo.png";
 import Backtotopbutton from './Backtotopbutton';
+import { Link } from "react-router-dom";
 
 function Header() {
   const [active, setActive] = useState("nav__menu");
@@ -25,13 +26,13 @@ function Header() {
     <nav className="nav">
        <img className="logo" src={logo} alt=""/>
       <ul className={active}>
-        <li className="nav__item active"><a href="#" className="nav__link">Home</a></li>
-        <li className="nav__item"><a href="#about" className="nav__link">About</a></li>
-        <li className="nav__item"><a href="#events" className="nav__link">Events</a></li>
-        <li className="nav__item"><a href="#division" className="nav__link">Divisions</a></li>
-        <li className="nav__item"><a href="#team" className="nav__link">Officers</a></li>
-        <li className="nav__item"><a href="#book" className="nav__link">Contact</a></li>
-        <li className="nav__item"><a href="#testimonials" className="nav__link">Review</a></li>
+        <li className="nav__item active"><Link href="#" className="nav__link">Home</Link></li>
+        <li className="nav__item"><Link href="#about" className="nav__link">About</Link></li>
+        <li className="nav__item"><Link href="#events" className="nav__link">Events</Link></li>
+        <li className="nav__item"><Link href="#division" className="nav__link">Divisions</Link></li>
+        <li className="nav__item"><Link href="#team" className="nav__link">Officers</Link></li>
+        <li className="nav__item"><Link href="#book" className="nav__link">Contact</Link></li>
+        <li className="nav__item"><Link href="#testimonials" className="nav__link">Review</Link></li>
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
