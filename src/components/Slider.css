@@ -1,0 +1,155 @@
+
+
+
+ .boxx{
+  background:#fff;
+  /* border-radius: .5rem; */
+  padding: 2rem;
+  /* background-color: aqua; */
+  /* border:.3rem solid #c3e1db; */
+  transition: 0.4s;
+  /* margin:12rem; */
+  /* border-color:var(--green); */
+  border: solid var(--green);
+  height:250px;
+  border-right: none;
+}
+.boxx.right{
+  border-right:3px solid var(--green);
+}
+.boxx.left{
+  border-left:none;
+}
+ .boxx:hover{
+ 
+  border-color: var(--green);
+  background: var(--green);
+  transform: scale(1.04);
+}
+
+ .boxx:hover .fa-solid,
+ .boxx:hover .headd,
+ .boxx:hover .para{  color:#fff;
+}
+ .boxx i{
+  color: var(--green);
+  font-size: 3rem;
+  padding-bottom: .5rem;
+}
+
+
+
+
+ .boxx h3{
+  color: var(--black);
+  font-size: 2rem;
+  padding:1rem 0;
+}
+
+ .boxx p{
+  color: var(--light-color);
+  font-size: 1.2rem;
+  line-height: 2;
+}
+/* @media screen and (max-width: 1180px) {
+ 
+
+  .boxx {
+    height:280px;
+  }
+  .boxx i{
+    font-size: 3rem;
+  }
+  .boxx h3{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+
+  .boxx {
+    width: 80%;
+    margin: 0 auto;
+    height:270px;
+  }
+  .boxx h3{
+    font-size: 1.8rem;
+    padding:.7rem 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .boxx {
+    width: 80%;
+    margin: 0 auto;
+    height:260px;
+  }
+  .boxx i{
+    font-size: 2.7rem;
+  }
+  .boxx h3{
+    font-size: 1.8rem;
+  }
+  .boxx p{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 990px) {
+
+  .boxx {
+    height:220px;
+  }
+}
+@media screen and (max-width: 860px) {
+
+  .boxx {
+    width: 80%;
+    margin: 0 auto;
+    height:250px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .swiper-slide {
+    width: 100%;
+  
+  }
+.boxx h3{
+  font-size: 1.2rem;
+}
+.boxx p{
+  font-size: 1rem;
+}
+  .boxx {
+    width: 80%;
+    margin: 0 auto;
+    height:220px;
+  }
+}
+@media screen and (max-width: 800px) {
+
+  .boxx {
+    width: 80%;
+    margin: 0 auto;
+    height:220px;
+    overflow:hidden;
+  }
+  .boxx p{
+    overflow:hidden;
+  }
+}
+
+/* Style for large screens */
+/* @media screen and (min-width: 601px) {
+  .swiper-slide {
+    width: 30%;
+  }
+
+  .boxx {
+    width: 100%;
+    margin: 0;
+  }
+}
+.swiper-pagination-bullets{
+  top:200px;
+} */ 
